@@ -1,0 +1,46 @@
+{
+    "V001": {
+        "status": "active"
+    },
+    "A204": {
+        "status": "active"
+    },
+    "v12": {
+        "status": "active"
+    },
+    "v90": {
+        "status": "active"
+    },
+    "v101": {
+        "status": "active"
+    },
+    "v102": {
+        "status": "active"
+    },
+    "v1001": {
+        "status": "active"
+    },
+    "v20001": {
+        "status": "active"
+    },
+    "s1": {
+        "status": "active",
+        "public_key": "s1_public.pem"
+    },
+    "s2": {
+        "status": "active",
+        "public_key": "s2_public.pem"
+    },
+    "s3": {
+        "status": "active",
+        "public_key": "s3_public.pem"
+    },
+    "a1": {
+        "status": "active",
+        "public_key": "a1_public.pem"
+    },
+    "a2": {
+        "status": "active",
+        "public_key": "a2_public.pem"
+    }
+}
