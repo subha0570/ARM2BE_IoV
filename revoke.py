@@ -1,6 +1,6 @@
-# Revocation/revoke.py
+# revoke.py
 
-from CA.vehicle_db import revoked_vehicles
+from vehicle_db import revoked_vehicles
 
 def revoke_vehicle(vehicle_id):
 
