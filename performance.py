@@ -3,7 +3,7 @@
 import json
 import os
 
-FILE_NAME = "Analysis/performance.json"
+FILE_NAME = "performance.json"
 
 def save_time(operation, elapsed_time):
 
