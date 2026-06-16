@@ -251,7 +251,7 @@ while True:
             subprocess.run(
                 [
                     "python3",
-                    "Analysis/graph.py"
+                    "graph.py"
                 ]
             )
 
