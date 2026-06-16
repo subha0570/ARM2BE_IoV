@@ -1,15 +1,15 @@
-# Security/broadcast_encryption.py
+# encryption.py
 
 from Crypto.Cipher import AES
 from Crypto.Random import get_random_bytes
 
-from CA.vehicle_db import vehicles
-from CA.vehicle_db import revoked_vehicles
+from vehicle_db import vehicles
+from vehicle_db import revoked_vehicles
 
 
 def broadcast_encrypt(message):
 
-    # Session Key
+    # Generate Session Key
     session_key = get_random_bytes(16)
 
     cipher = AES.new(
@@ -23,7 +23,7 @@ def broadcast_encrypt(message):
 
     authorized_keys = {}
 
-    # Only non-revoked vehicles receive K
+    # Only non-revoked vehicles receive session key
     for vid in vehicles:
 
         if vid not in revoked_vehicles:
