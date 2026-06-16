@@ -3,30 +3,30 @@
 import time
 import subprocess
 
-from CA.registration import register_vehicle
+from registration import register_vehicle
 
-from Security.encryption import (
+from encryption import (
     broadcast_encrypt
 )
 
-from Security.decryption import (
+from decryption import (
     broadcast_decrypt
 )
 
-from Security.hashing import (
+from hashing import (
     create_hash
 )
 
-from Security.signature import (
+from signature import (
     sign_message,
     verify_signature
 )
 
-from Revocation.revoke import (
+from revoke import (
     revoke_vehicle
 )
 
-from Analysis.performance import (
+from performance import (
     save_time
 )
 
