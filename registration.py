@@ -3,7 +3,7 @@
 import os
 
 from Crypto.PublicKey import ECC
-from CA.vehicle_db import vehicles
+from vehicle_db import vehicles
 
 KEY_DIR = "Keys"
 
